@@ -38,27 +38,51 @@ function getItemsBySlotLoose(slot) {
     ...(equipmentData.weapons || []),
     ...(equipmentData.armors || []),
     ...(equipmentData.shields || []),
-    ...(equipmentData.focus || [])
+    ...(equipmentData.focus || []),
+    ...(equipmentData.helmets || [])
   ];
 
-  const slotGroups = {
-    arma_2_manos: ["arma_2_manos", "arma_1_mano", "arma_distancia", "baston", "guantelete_piro", "guantelete_nigro"],
-    arma_1_mano: ["arma_1_mano", "arma_2_manos", "arma_distancia", "baston", "guantelete_piro", "guantelete_nigro"],
-    arma_distancia: ["arma_distancia", "arco", "arma_1_mano"],
-    arco: ["arco", "arma_distancia"],
-    armadura_ligera: ["armadura_ligera", "armadura_intermedia", "armadura_pesada"],
-    armadura_intermedia: ["armadura_intermedia", "armadura_ligera", "armadura_pesada"],
-    armadura_pesada: ["armadura_pesada", "armadura_intermedia", "armadura_ligera"],
-    escudo: ["escudo", "escudo_ligero"],
-    escudo_ligero: ["escudo_ligero", "escudo"],
-    simbolo_sagrado: ["simbolo_sagrado"],
-    baston: ["baston", "arma_2_manos", "arma_1_mano"],
-    guantelete_piro: ["guantelete_piro"],
-    guantelete_nigro: ["guantelete_nigro"]
-  };
+  return allItems.filter(item => {
+    const id = Number(item.id);
 
-  const allowedSlots = slotGroups[slot] || [slot];
-  return allItems.filter(item => allowedSlots.includes(item.slot_type));
+    if (slot === "arma_1_mano") {
+      return id >= 10000 && id < 20000;
+    }
+
+    if (slot === "arma_2_manos") {
+      return id >= 20000 && id < 30000;
+    }
+
+    if (slot === "foco") {
+      return id >= 30000 && id < 40000;
+    }
+
+    if (slot === "escudo" || slot === "escudo_ligero") {
+      return id >= 40000 && id < 50000;
+    }
+
+    if (slot === "armadura_ligera") {
+      return id >= 50000 && id < 60000;
+    }
+
+    if (slot === "armadura_intermedia") {
+      return id >= 60000 && id < 70000;
+    }
+
+    if (slot === "armadura_pesada") {
+      return id >= 70000 && id < 80000;
+    }
+
+    if (slot === "casco_ligero") {
+      return id >= 80000 && id < 90000;
+    }
+
+    if (slot === "casco_pesado") {
+      return id >= 90000 && id < 100000;
+    }
+
+    return item.slot_type === slot;
+  });
 }
 
 async function loadEquipment() {
