@@ -2,12 +2,6 @@
   position: relative;
   min-height: 100vh;
   background-color: #08080c;
-}
-
-.dashboard-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
   background-image:
     linear-gradient(rgba(5, 5, 8, 0.45), rgba(8, 8, 12, 0.50)),
     url("../imagenes/castillo.jpg");
@@ -15,7 +9,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  z-index: -2;
 }
 
 .dashboard-overlay {
