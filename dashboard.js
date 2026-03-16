@@ -6,7 +6,7 @@ const createCharacterBtn = document.getElementById("createCharacterBtn");
 const usuarioActivo = JSON.parse(localStorage.getItem("usuarioActivo"));
 
 if (!usuarioActivo) {
-  window.location.href = "login.html";
+  window.location.href = "index.html";
 }
 
 welcomeMessage.textContent = `Bienvenido, ${usuarioActivo.username}`;
@@ -94,7 +94,7 @@ createCharacterBtn.addEventListener("click", () => {
 
 logoutBtn.addEventListener("click", () => {
   localStorage.removeItem("usuarioActivo");
-  window.location.href = "login.html";
+  window.location.href = "index.html";
 });
 
 renderCharacters();

@@ -54,6 +54,6 @@ registerForm.addEventListener("submit", function (event) {
   registerMessage.textContent = "Cuenta creada con éxito. Redirigiendo al login...";
 
   setTimeout(() => {
-    window.location.href = "login.html";
+    window.location.href = "index.html";
   }, 1200);
 });
