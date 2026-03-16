@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Hijos del Hierro",
+    "stat_bonus": "Fue +1",
+    "skills": ["Atletismo", "Estrategia"],
+    "description": "Criados en fortalezas de piedra, murallas derruidas y antiguos talleres de guerra, los Hijos del Hierro desarrollan cuerpos compactos y resistentes. Su pelaje suele ser oscuro o ceniza, y sus movimientos reflejan disciplina marcial. Desde pequeños aprenden el valor del esfuerzo físico y la estrategia."
+  },
+  {
+    "name": "Guardianes del Bosque",
+    "stat_bonus": "Agi +1",
+    "skills": ["Sigilo", "Percepción"],
+    "description": "Los Guardianes del Bosque viven entre copas de árboles, puentes de cuerda y refugios elevados. Son ratones esbeltos, de movimientos rápidos y silenciosos. Su pelaje suele ser pardo o verde musgo y sus ojos están entrenados para detectar movimiento entre hojas y ramas."
+  },
+  {
+    "name": "Madriguera Profunda",
+    "stat_bonus": "Cue +1",
+    "skills": ["Aguante", "Percepción"],
+    "description": "Nacidos en túneles profundos y colonias subterráneas, estos ratones están acostumbrados a la penumbra y la presión del entorno. Su pelaje es espeso y oscuro, y sus cuerpos son robustos. Detectan vibraciones y cambios en el suelo con facilidad."
+  },
+  {
+    "name": "Herederos del Velo",
+    "stat_bonus": "Mag +1",
+    "skills": ["Investigación", "Persuasión"],
+    "description": "Descendientes de guardianes de reliquias y sabios de ruinas antiguas, los Herederos del Velo tienen una presencia enigmática. Su pelaje puede ser plateado, oscuro o azulado. Se sienten atraídos por símbolos antiguos, conocimientos olvidados y misterios arcanos."
+  },
+  {
+    "name": "Peregrinos del Alba Gris",
+    "stat_bonus": "Esp +1",
+    "skills": ["Religión", "Averiguar intenciones"],
+    "description": "Criados entre caminos sagrados, pequeñas capillas y ruinas consagradas, los Peregrinos del Alba Gris poseen una mirada serena y profunda. Suelen ser ratones reflexivos que observan más de lo que hablan y perciben con facilidad el estado espiritual de los demás."
+  },
+  {
+    "name": "Marcados por la Ceniza",
+    "stat_bonus": "Vol +1",
+    "skills": ["Estrategia", "Aguante"],
+    "description": "Los Marcados por la Ceniza viven entre raíces retorcidas y restos de bosques quemados. Sus colonias se esconden bajo troncos carbonizados y suelos cubiertos de polvo gris. Su pelaje suele ser oscuro o ceniza y sus ojos reflejan una voluntad dura, nacida de sobrevivir donde otros no pueden."
+  }
+]

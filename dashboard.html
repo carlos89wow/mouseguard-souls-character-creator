@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mouseguard Souls - Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dashboard-body">
+
+  <div class="dashboard-overlay"></div>
+
+  <main class="dashboard-page">
+    <header class="dashboard-header">
+      <div>
+        <h1>Mouseguard Souls</h1>
+        <p id="welcomeMessage">Bienvenido, aventurero</p>
+      </div>
+
+      <div class="dashboard-header-actions">
+        <button class="btn-secondary" id="logoutBtn">Cerrar sesión</button>
+      </div>
+    </header>
+
+    <section class="dashboard-topbar">
+      <div>
+        <h2>Archivo de personajes</h2>
+        <p>Administra tus héroes y conserva su legado.</p>
+      </div>
+
+      <button class="btn-primary" id="createCharacterBtn">Crear personaje</button>
+    </section>
+
+    <section class="characters-section">
+      <div class="characters-grid" id="charactersGrid"></div>
+    </section>
+  </main>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>

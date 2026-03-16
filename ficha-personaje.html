@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mouseguard Souls - Ficha</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dashboard-body">
+
+  <div class="dashboard-overlay"></div>
+
+  <main class="character-sheet-page">
+    <header class="character-sheet-header">
+      <div>
+        <h1>Ficha del Personaje</h1>
+        <p id="sheetSubtitle">Registro del aventurero</p>
+      </div>
+
+      <div class="character-sheet-actions">
+        <button class="btn-secondary" id="backDashboardBtn">Volver al dashboard</button>
+      </div>
+    </header>
+
+    <section class="character-sheet-layout">
+      <article class="sheet-card main-sheet-card">
+        <div class="sheet-portrait" id="sheetPortrait">?</div>
+
+        <div class="sheet-main-info">
+          <h2 id="sheetName">Nombre</h2>
+          <p><strong>Clase:</strong> <span id="sheetClass">-</span></p>
+          <p><strong>Origen:</strong> <span id="sheetOrigin">-</span></p>
+          <p><strong>Build:</strong> <span id="sheetBuild">-</span></p>
+          <p><strong>Nivel:</strong> <span id="sheetLevel">1</span></p>
+        </div>
+      </article>
+
+      <article class="sheet-card">
+        <h3>Recursos</h3>
+        <div class="sheet-resource-grid">
+          <div class="resource-box">
+            <span>HP</span>
+            <strong id="sheetHP">0</strong>
+          </div>
+          <div class="resource-box">
+            <span>MP</span>
+            <strong id="sheetMP">0</strong>
+          </div>
+        </div>
+      </article>
+
+      <article class="sheet-card">
+        <h3>Atributos</h3>
+        <div class="sheet-stats-grid" id="sheetStats"></div>
+      </article>
+
+      <article class="sheet-card">
+        <h3>Equipo</h3>
+        <ul class="sheet-equipment-list" id="sheetEquipment"></ul>
+      </article>
+    </section>
+  </main>
+
+  <script src="ficha-personaje.js"></script>
+</body>
+</html>

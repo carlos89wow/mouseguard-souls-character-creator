@@ -1,0 +1,539 @@
+{
+  "weapons": [
+    {
+      "id": 10001,
+      "name": "Daga",
+      "slot_type": "arma_1_mano",
+      "hands": 1,
+      "stat": "Agi",
+      "weight": 1,
+      "damage": "d4",
+      "mastery": ["Backstab", "Arrojadiza 15"],
+      "price": 1
+    },
+    {
+      "id": 10002,
+      "name": "Espada corta",
+      "slot_type": "arma_1_mano",
+      "hands": 1,
+      "stat": "Agi",
+      "weight": 1,
+      "damage": "d6",
+      "mastery": ["Ligera"],
+      "price": 2
+    },
+    {
+      "id": 10003,
+      "name": "Martillo ligero",
+      "slot_type": "arma_1_mano",
+      "hands": 1,
+      "stat": "Str",
+      "weight": 1,
+      "damage": "d6",
+      "mastery": ["Ligera", "Derribo"],
+      "price": 2
+    },
+    {
+      "id": 10004,
+      "name": "Lanza corta",
+      "slot_type": "arma_1_mano",
+      "hands": 1,
+      "stat": "Agi",
+      "weight": 1,
+      "damage": "d6",
+      "mastery": ["Arrojadiza 30"],
+      "price": 2
+    },
+    {
+      "id": 10005,
+      "name": "Mangual",
+      "slot_type": "arma_1_mano",
+      "hands": 1,
+      "stat": "Str",
+      "weight": 1,
+      "damage": "d8",
+      "mastery": ["Derribo"],
+      "price": 3
+    },
+    {
+      "id": 10006,
+      "name": "Martillo de guerra",
+      "slot_type": "arma_1_mano",
+      "hands": 1,
+      "stat": "Str",
+      "weight": 1,
+      "damage": "d8",
+      "mastery": ["Arrojadiza 15", "Derribo"],
+      "price": 3
+    },
+    {
+      "id": 10007,
+      "name": "Hacha de guerra",
+      "slot_type": "arma_1_mano",
+      "hands": 1,
+      "stat": "Str",
+      "weight": 2,
+      "damage": "d8",
+      "mastery": ["Versátil 3", "Hendedura"],
+      "price": 3
+    },
+    {
+      "id": 10008,
+      "name": "Katana",
+      "slot_type": "arma_1_mano",
+      "hands": 1,
+      "stat": "Agi",
+      "weight": 1,
+      "damage": "d8",
+      "mastery": ["Desangrar"],
+      "price": 4
+    },
+    {
+      "id": 10009,
+      "name": "Espada larga",
+      "slot_type": "arma_1_mano",
+      "hands": 1,
+      "stat": "Str",
+      "weight": 1,
+      "damage": "d8",
+      "mastery": ["Versátil 3", "Bloqueo 3"],
+      "price": 2
+    },
+    {
+      "id": 10010,
+      "name": "No-dachi corto",
+      "slot_type": "arma_1_mano",
+      "hands": 1,
+      "stat": "Agi",
+      "weight": 2,
+      "damage": "d10",
+      "mastery": ["Desangrar"],
+      "price": 4
+    },
+    {
+      "id": 10011,
+      "name": "Estoque",
+      "slot_type": "arma_1_mano",
+      "hands": 1,
+      "stat": "Agi",
+      "weight": 1,
+      "damage": "d8",
+      "mastery": ["Ligera", "Desarme"],
+      "price": 3
+    },
+    {
+      "id": 10012,
+      "name": "Maza reforzada",
+      "slot_type": "arma_1_mano",
+      "hands": 1,
+      "stat": "Str",
+      "weight": 2,
+      "damage": "d10",
+      "mastery": ["Derribo"],
+      "price": 4
+    },
+    {
+      "id": 10013,
+      "name": "Sable curvo",
+      "slot_type": "arma_1_mano",
+      "hands": 1,
+      "stat": "Agi",
+      "weight": 1,
+      "damage": "d8",
+      "mastery": ["Ligera", "Versátil 2"],
+      "price": 3
+    },
+    {
+      "id": 10014,
+      "name": "Hacha de mano",
+      "slot_type": "arma_1_mano",
+      "hands": 1,
+      "stat": "Str",
+      "weight": 1,
+      "damage": "d6",
+      "mastery": ["Arrojadiza 15", "Hendedura"],
+      "price": 2
+    },
+
+    {
+      "id": 20001,
+      "name": "Lanza larga",
+      "slot_type": "arma_2_manos",
+      "hands": 2,
+      "stat": "Str",
+      "weight": 2,
+      "damage": "d10",
+      "mastery": ["Alcance"],
+      "price": 3
+    },
+    {
+      "id": 20002,
+      "name": "Espadón",
+      "slot_type": "arma_2_manos",
+      "hands": 2,
+      "stat": "Str",
+      "weight": 2,
+      "damage": "2d6",
+      "mastery": ["Hendedura", "Bloqueo 4"],
+      "price": 3
+    },
+    {
+      "id": 20003,
+      "name": "Gran hacha",
+      "slot_type": "arma_2_manos",
+      "hands": 2,
+      "stat": "Str",
+      "weight": 2,
+      "damage": "2d6",
+      "mastery": ["Hendedura"],
+      "price": 3
+    },
+    {
+      "id": 20004,
+      "name": "Alabarda",
+      "slot_type": "arma_2_manos",
+      "hands": 2,
+      "stat": "Str",
+      "weight": 3,
+      "damage": "d10",
+      "mastery": ["Hendedura", "Alcance"],
+      "price": 4
+    },
+    {
+      "id": 20005,
+      "name": "Naginata",
+      "slot_type": "arma_2_manos",
+      "hands": 2,
+      "stat": "Agi",
+      "weight": 1,
+      "damage": "d10",
+      "mastery": ["Alcance", "Desangrar"],
+      "price": 3
+    },
+    {
+      "id": 20006,
+      "name": "Martillo de asedio",
+      "slot_type": "arma_2_manos",
+      "hands": 2,
+      "stat": "Str",
+      "weight": 3,
+      "damage": "2d6",
+      "mastery": ["Derribo", "Bloqueo 2"],
+      "price": 5
+    },
+    {
+      "id": 20007,
+      "name": "Guadaña de guerra",
+      "slot_type": "arma_2_manos",
+      "hands": 2,
+      "stat": "Agi",
+      "weight": 2,
+      "damage": "d12",
+      "mastery": ["Desangrar", "Alcance"],
+      "price": 5
+    },
+    {
+      "id": 20008,
+      "name": "Mandoble bendito",
+      "slot_type": "arma_2_manos",
+      "hands": 2,
+      "stat": "Str",
+      "weight": 3,
+      "damage": "2d6",
+      "mastery": ["Hendedura", "Versátil 2"],
+      "price": 6
+    },
+
+    {
+      "id": 21001,
+      "name": "Arco corto",
+      "slot_type": "arco",
+      "hands": 2,
+      "stat": "Agi",
+      "weight": 1,
+      "damage": "d6",
+      "mastery": ["Arrojadiza 30"],
+      "price": 2
+    },
+    {
+      "id": 21002,
+      "name": "Arco largo",
+      "slot_type": "arco",
+      "hands": 2,
+      "stat": "Agi",
+      "weight": 2,
+      "damage": "d8",
+      "mastery": ["Arrojadiza 45"],
+      "price": 4
+    },
+    {
+      "id": 22001,
+      "name": "Honda",
+      "slot_type": "arma_distancia",
+      "hands": 1,
+      "stat": "Agi",
+      "weight": 1,
+      "damage": "d4",
+      "mastery": ["Arrojadiza 30"],
+      "price": 1
+    },
+    {
+      "id": 22002,
+      "name": "Jabalina",
+      "slot_type": "arma_distancia",
+      "hands": 1,
+      "stat": "Str",
+      "weight": 1,
+      "damage": "d6",
+      "mastery": ["Arrojadiza 30"],
+      "price": 2
+    }
+  ],
+
+  "armors": [
+    {
+      "id": 50001,
+      "name": "Acolchonada",
+      "slot_type": "armadura_ligera",
+      "armor_type": "Tela",
+      "weight": 1,
+      "def": 1,
+      "def_mag": 3,
+      "traits": [],
+      "price": 1
+    },
+    {
+      "id": 50002,
+      "name": "Cuero",
+      "slot_type": "armadura_ligera",
+      "armor_type": "Cuero",
+      "weight": 1,
+      "def": 2,
+      "def_mag": 2,
+      "traits": [],
+      "price": 2
+    },
+    {
+      "id": 50003,
+      "name": "Taconeado",
+      "slot_type": "armadura_ligera",
+      "armor_type": "Cuero",
+      "weight": 1,
+      "def": 3,
+      "def_mag": 1,
+      "traits": [],
+      "price": 3
+    },
+    {
+      "id": 50004,
+      "name": "Cuero endurecido",
+      "slot_type": "armadura_ligera",
+      "armor_type": "Cuero",
+      "weight": 2,
+      "def": 3,
+      "def_mag": 2,
+      "traits": [],
+      "price": 4
+    },
+
+    {
+      "id": 60001,
+      "name": "Malla",
+      "slot_type": "armadura_intermedia",
+      "armor_type": "Malla",
+      "weight": 2,
+      "def": 3,
+      "def_mag": 2,
+      "traits": ["Movimiento -1"],
+      "price": 4
+    },
+    {
+      "id": 60002,
+      "name": "Escamas",
+      "slot_type": "armadura_intermedia",
+      "armor_type": "Malla",
+      "weight": 2,
+      "def": 2,
+      "def_mag": 3,
+      "traits": ["Movimiento -1"],
+      "price": 5
+    },
+    {
+      "id": 60003,
+      "name": "Cota reforzada",
+      "slot_type": "armadura_intermedia",
+      "armor_type": "Malla",
+      "weight": 3,
+      "def": 4,
+      "def_mag": 2,
+      "traits": ["Movimiento -1"],
+      "price": 6
+    },
+
+    {
+      "id": 70001,
+      "name": "Bandas",
+      "slot_type": "armadura_pesada",
+      "armor_type": "Placas",
+      "weight": 3,
+      "def": 2,
+      "def_mag": 4,
+      "traits": ["Movimiento -2"],
+      "price": 6
+    },
+    {
+      "id": 70002,
+      "name": "Placas",
+      "slot_type": "armadura_pesada",
+      "armor_type": "Placas",
+      "weight": 3,
+      "def": 4,
+      "def_mag": 2,
+      "traits": ["Movimiento -2"],
+      "price": 7
+    },
+    {
+      "id": 70003,
+      "name": "Armadura segmentada",
+      "slot_type": "armadura_pesada",
+      "armor_type": "Placas",
+      "weight": 4,
+      "def": 5,
+      "def_mag": 2,
+      "traits": ["Movimiento -2"],
+      "price": 8
+    }
+  ],
+
+  "shields": [
+    {
+      "id": 40001,
+      "name": "Escudo ligero",
+      "slot_type": "escudo_ligero",
+      "def": 4,
+      "weight": 1,
+      "price": 1
+    },
+    {
+      "id": 40002,
+      "name": "Escudo pesado",
+      "slot_type": "escudo",
+      "def": 8,
+      "weight": 1,
+      "price": 2
+    },
+    {
+      "id": 40003,
+      "name": "Broquel",
+      "slot_type": "escudo_ligero",
+      "def": 2,
+      "weight": 1,
+      "price": 1
+    }
+  ],
+
+  "focus": [
+    {
+      "id": 30001,
+      "name": "Símbolo sagrado",
+      "slot_type": "simbolo_sagrado",
+      "hands": 1,
+      "stat": "Esp",
+      "weight": 1,
+      "damage": "n/a",
+      "mastery": [],
+      "price": 2
+    },
+    {
+      "id": 30002,
+      "name": "Guantelete piro",
+      "slot_type": "guantelete_piro",
+      "hands": 1,
+      "stat": "Esp",
+      "weight": 1,
+      "damage": "d4",
+      "mastery": [],
+      "price": 2
+    },
+    {
+      "id": 30003,
+      "name": "Guantelete nigro",
+      "slot_type": "guantelete_nigro",
+      "hands": 1,
+      "stat": "Vol",
+      "weight": 1,
+      "damage": "d4",
+      "mastery": [],
+      "price": 2
+    },
+    {
+      "id": 30004,
+      "name": "Bastón",
+      "slot_type": "baston",
+      "hands": 1,
+      "stat": "Mag",
+      "weight": 1,
+      "damage": "d10",
+      "mastery": ["Versátil 2"],
+      "price": 1
+    },
+    {
+      "id": 30005,
+      "name": "Cetro rúnico",
+      "slot_type": "baston",
+      "hands": 1,
+      "stat": "Mag",
+      "weight": 1,
+      "damage": "d8",
+      "mastery": ["Desangrar arcano"],
+      "price": 4
+    }
+  ],
+
+  "helmets": [
+    {
+      "id": 80001,
+      "name": "Casco ligero",
+      "slot_type": "casco_ligero",
+      "armor_type": "Cuero",
+      "weight": 1,
+      "def": 1,
+      "def_mag": 1,
+      "traits": [],
+      "price": 1
+    },
+    {
+      "id": 80002,
+      "name": "Capucha reforzada",
+      "slot_type": "casco_ligero",
+      "armor_type": "Tela",
+      "weight": 1,
+      "def": 1,
+      "def_mag": 2,
+      "traits": [],
+      "price": 2
+    },
+    {
+      "id": 90001,
+      "name": "Casco completo",
+      "slot_type": "casco_pesado",
+      "armor_type": "Placas",
+      "weight": 2,
+      "def": 2,
+      "def_mag": 2,
+      "traits": ["Percepción -1"],
+      "price": 2
+    },
+    {
+      "id": 90002,
+      "name": "Yelmo de guerra",
+      "slot_type": "casco_pesado",
+      "armor_type": "Placas",
+      "weight": 2,
+      "def": 3,
+      "def_mag": 1,
+      "traits": ["Percepción -1"],
+      "price": 3
+    }
+  ]
+}
