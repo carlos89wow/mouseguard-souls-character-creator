@@ -1,0 +1,148 @@
+[
+  {
+    "name": "Guerrero",
+    "hp_die": "d12",
+    "hp_initial": 12,
+    "mp_die": "d6",
+    "mp_initial": 6,
+    "unique_ability": "Maestría con armas",
+    "description": "Los guerreros dominan el combate físico y el uso de armamento pesado. Son los únicos capaces de acceder a las maestrías especiales de la tabla de armas. Su entrenamiento les permite adaptarse a distintos estilos de combate.",
+    "build_options": [
+      {
+        "name": "Juggernaut",
+        "description": "Un estilo enfocado en impacto pesado y defensa sólida.",
+        "slots": [
+          "arma_2_manos",
+          "arma_1_mano",
+          "armadura_pesada"
+        ]
+      },
+      {
+        "name": "Versátil",
+        "description": "Un estilo móvil que combina duales ligeros con apoyo a distancia.",
+        "slots": [
+          "arma_1_mano",
+          "arma_1_mano",
+          "armadura_intermedia",
+          "arco"
+        ]
+      },
+      {
+        "name": "Muralla",
+        "description": "Un estilo defensivo para resistir y controlar el combate cercano.",
+        "slots": [
+          "arma_1_mano",
+          "arma_1_mano",
+          "armadura_pesada",
+          "escudo"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Clérigo",
+    "hp_die": "d10",
+    "hp_initial": 10,
+    "mp_die": "d8",
+    "mp_initial": 8,
+    "unique_ability": "Canalizar Divinidad",
+    "description": "Los clérigos son intermediarios entre lo divino y el mundo mortal. Son los únicos capaces de canalizar milagros y manifestaciones sagradas mediante su fe.",
+    "build_options": [
+      {
+        "name": "Sacerdote",
+        "description": "Una build centrada en la fe, la protección espiritual y el uso constante de poder divino.",
+        "slots": [
+          "arma_1_mano",
+          "simbolo_sagrado",
+          "armadura_ligera"
+        ]
+      },
+      {
+        "name": "Templario",
+        "description": "Una build marcial y resistente, pensada para el combate cercano con apoyo sagrado.",
+        "slots": [
+          "arma_2_manos",
+          "arma_1_mano",
+          "armadura_intermedia",
+          "escudo"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pícaro",
+    "hp_die": "d8",
+    "hp_initial": 8,
+    "mp_die": "d10",
+    "mp_initial": 10,
+    "unique_ability": "Envenenar",
+    "description": "Los pícaros son maestros del sigilo, la precisión y las tácticas indirectas. Son los únicos capaces de crear y aplicar venenos a sus armas, aprovechando recursos encontrados en casi cualquier entorno.",
+    "build_options": [
+      {
+        "name": "Asesino",
+        "description": "Un estilo agresivo y letal, enfocado en movilidad, ataques rápidos y presión a distancia.",
+        "slots": [
+          "arma_1_mano",
+          "arma_1_mano",
+          "arma_distancia",
+          "armadura_ligera"
+        ]
+      },
+      {
+        "name": "Espadachín",
+        "description": "Un estilo más técnico y versátil, que combina precisión, defensa ligera y apoyo a distancia.",
+        "slots": [
+          "arma_1_mano",
+          "arco",
+          "armadura_intermedia",
+          "escudo_ligero"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mago",
+    "hp_die": "d6",
+    "hp_initial": 6,
+    "mp_die": "d12",
+    "mp_initial": 12,
+    "unique_ability": "Hechicería innata",
+    "description": "Los magos canalizan el poder arcano a través de su voluntad y conocimiento. Cada uno se especializa en una sola escuela, definiendo así su estilo de combate y desarrollo.",
+    "magic_schools": [
+      "Magia pura",
+      "Piromancia",
+      "Nigromancia"
+    ],
+    "build_options": [
+      {
+        "name": "Hechicero",
+        "description": "Una build equilibrada para canalizar magia pura con apoyo defensivo y arma secundaria.",
+        "slots": [
+          "baston",
+          "arma_1_mano",
+          "armadura_ligera",
+          "escudo_ligero"
+        ]
+      },
+      {
+        "name": "Piromántico",
+        "description": "Una build ofensiva enfocada en fuego, presión constante y resistencia moderada.",
+        "slots": [
+          "guantelete_piro",
+          "armadura_intermedia",
+          "escudo_ligero"
+        ]
+      },
+      {
+        "name": "Nigromante",
+        "description": "Una build oscura y táctica, centrada en energías necróticas y apoyo armado ligero.",
+        "slots": [
+          "guantelete_nigro",
+          "arma_1_mano",
+          "armadura_ligera",
+          "escudo_ligero"
+        ]
+      }
+    ]
+  }
+]

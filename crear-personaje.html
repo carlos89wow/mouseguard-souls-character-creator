@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mouseguard Souls - Crear personaje</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="creator-body">
+
+  <div class="creator-overlay"></div>
+
+  <main class="creator-page">
+    <header class="creator-header">
+      <div>
+        <h1>Forja de Personaje</h1>
+        <p>Da forma al destino de un nuevo aventurero.</p>
+      </div>
+
+      <div class="creator-header-actions">
+         <button class="btn-secondary" id="resetCreatorBtn">Limpiar creación</button>
+         <button class="btn-secondary" id="backDashboardBtn">Volver al dashboard</button>
+      </div>
+    </header>
+
+    <section class="creator-progress">
+      <div class="progress-step active" data-step="0">General</div>
+      <div class="progress-step" data-step="1">Origen</div>
+      <div class="progress-step" data-step="2">Clase</div>
+      <div class="progress-step" data-step="3">Stats</div>
+      <div class="progress-step" data-step="3">Equipo</div>
+      <div class="progress-step" data-step="3">Resumen</div>
+    </section>
+
+    <section class="creator-layout">
+      <article class="creator-options-panel">
+        <div id="optionsContainer">
+          <!-- Aquí se renderizan las opciones dinámicamente -->
+        </div>
+      </article>
+
+      <article class="creator-info-panel">
+        <div id="infoContainer">
+          <!-- Aquí se muestra la información del paso actual -->
+        </div>
+      </article>
+    </section>
+
+    <section class="creator-actions">
+      <button class="btn-secondary" id="prevStepBtn">Regresar</button>
+      <button class="btn-primary" id="nextStepBtn">Comenzar</button>
+    </section>
+  </main>
+
+  <script src="crear-personaje.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  label {
+    font-weight: 600;
+    color: $text-main;
+  }
+
+  input {
+    width: 100%;
+    padding: 13px 14px;
+    border-radius: 12px;
+    border: 1px solid #2b2b35;
+    background: #101017;
+    color: $text-main;
+    font-size: 0.98rem;
+    outline: none;
+    transition: 0.25s ease;
+
+    &::placeholder {
+      color: #7f7f8b;
+    }
+
+    &:focus {
+      border-color: $accent;
+      box-shadow: 0 0 0 3px rgba(198, 161, 91, 0.15);
+    }
+  }
+}

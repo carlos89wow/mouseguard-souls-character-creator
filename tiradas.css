@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #273043, #0d0f14);
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.tiradas-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.tiradas-container h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.dados-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 35px 0;
+}
+
+.btn-dado {
+  padding: 18px 28px;
+  border: 2px solid #c9a227;
+  border-radius: 12px;
+  background: #151922;
+  color: #f5d76e;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-dado:hover {
+  transform: translateY(-4px);
+  background: #252b38;
+}
+
+.resultado-card {
+  margin: 30px auto;
+  padding: 30px;
+  max-width: 400px;
+  border: 2px solid #c9a227;
+  border-radius: 18px;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.dado-animado {
+  font-size: 70px;
+  margin-bottom: 15px;
+}
+
+.girando {
+  animation: girarDado 0.8s linear infinite;
+}
+
+@keyframes girarDado {
+  from {
+    transform: rotate(0deg) scale(1);
+  }
+  to {
+    transform: rotate(360deg) scale(1.2);
+  }
+}
+
+#resultadoDado {
+  font-size: 34px;
+  font-weight: bold;
+  color: #f5d76e;
+}
+
+.volver {
+  display: inline-block;
+  margin-top: 25px;
+  color: #f5d76e;
+  text-decoration: none;
+}

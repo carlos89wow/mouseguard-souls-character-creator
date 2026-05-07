@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mouseguard Souls - Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dashboard-body">
+
+  <div class="dashboard-overlay"></div>
+
+  <main class="dashboard-page">
+    <header class="dashboard-header">
+      <div>
+        <h1>Mouseguard Souls</h1>
+        <p id="welcomeMessage">Bienvenido, aventurero</p>
+      </div>
+
+    <div class="dashboard-header-actions">
+       <a href="tiradas.html" class="btn-secondary">Tiradas de Dados</a>
+       <button class="btn-secondary" id="logoutBtn">Cerrar sesión</button>
+    </div>
+
+    <section class="rules-panel">
+      <div class="rules-content">
+        <span class="rules-tag">Reglas</span>
+        <h2>Reglas de combate</h2>
+        <p class="rules-intro">
+          Sistema base de resolución para acciones, ataques, defensa, interrupciones y habilidades.
+        </p>
+
+        <div class="rules-grid">
+          <article class="rule-card">
+            <h3>Dados de acción</h3>
+            <ul>
+              <li><strong>D4:</strong> Esquivar o acción bonus.</li>
+              <li><strong>D6:</strong> Defensa; bloquea la mayoría de ataques.</li>
+              <li><strong>D8:</strong> Ataque rápido; no causa mucho daño, pero interrumpe.</li>
+              <li><strong>D10:</strong> Ataque fuerte; +1 daño, ventaja vs esquivar y cargado.</li>
+              <li><strong>D12:</strong> Ataque cargado; +2 daño, +1 balance.</li>
+              <li><strong>D20:</strong> Ataque en salto; +3 daño, +2 balance e imbloqueable.</li>
+            </ul>
+          </article>
+
+          <article class="rule-card">
+            <h3>Conceptos clave</h3>
+            <ul>
+              <li><strong>Éxito:</strong> si el resultado es menor que la estadística correspondiente.</li>
+              <li><strong>Interrupciones:</strong> una acción más rápida puede cortar otra más lenta.</li>
+              <li><strong>Defensa:</strong> interrumpe casi todo, excepto ataque en salto.</li>
+              <li><strong>Balance:</strong> evita ser interrumpido al recibir daño.</li>
+              <li><strong>Esquivar:</strong> permite moverse 2 casillas.</li>
+              <li><strong>Ventaja:</strong> se considera tu característica x2.</li>
+            </ul>
+          </article>
+           <article class="rule-card">
+            <h3>Funcionamiento del turno</h3>
+            <ul>
+              <li><strong>Paso 1 :</strong> Todos los jugadores y enemigos eligen sus acciones y objetivos.</li>
+              <li><strong>Paso 2:</strong> se comparan los resultados vs la acción del objetivo seleccionado para validar si tienes exito o no.</li>
+              <li><strong>Paso 3:</strong> en caso de exito se lanzan los dados de daño para ver si sinterrumpe.</li>
+              <li><strong>Paso 4:</strong> si ambos tuvieron exito, actua primero el mas rapido y si no interrumpe ambos realizan su acción.</li>
+              <li><strong>Paso 5:</strong> si el combate continua regresamos al paso 1.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+
+      <div class="rules-image">
+        <img src="imagenes/reglas-combate.png" alt="Diagrama de reglas de combate">
+      </div>
+    </section>
+
+    <section class="dashboard-topbar">
+      <div>
+        <h2>Archivo de personajes</h2>
+        <p>Administra tus héroes y conserva su legado.</p>
+      </div>
+
+      <button class="btn-primary" id="createCharacterBtn">Crear personaje</button>
+    </section>
+
+    <section class="characters-section">
+      <div class="characters-grid" id="charactersGrid"></div>
+    </section>
+  </main>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>
