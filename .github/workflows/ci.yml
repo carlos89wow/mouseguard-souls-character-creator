@@ -1,0 +1,29 @@
+name: Integracion Continua
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  prueba-ci:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Obtener codigo del repositorio
+        uses: actions/checkout@v4
+
+      - name: Mostrar mensaje
+        run: echo "Iniciando proceso de Integracion Continua"
+
+      - name: Mostrar archivos del proyecto
+        run: ls -la
+
+      - name: Ejecutar prueba
+        run: echo "Prueba ejecutada correctamente"
+
+      - name: Finalizar proceso
+        run: echo "Proceso de Integracion Continua finalizado"
